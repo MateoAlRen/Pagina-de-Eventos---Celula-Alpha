@@ -1,0 +1,30 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "name": "Robin",
+            "email": "robincortes@riwi.io",
+            "password": "password"
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "status": "current"
+        },
+        {
+            "id": 2,
+            "status": "cancelled"
+        },
+        {
+            "id": 3,
+            "status": "inactive"
+        },
+        {
+            "id": 4,
+            "status": "current"
+        }
+    ],
+    "messages": [{}, {}],
+    "mails": [{}, {}]
+}

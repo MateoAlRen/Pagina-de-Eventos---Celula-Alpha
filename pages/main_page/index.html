@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Administrator</title>
+</head>
+
+<body>
+    <aside class="aside_bar">
+        <div>
+            <button class="aside_button" data-section="./sections/home.html">Home</button>
+            <button class="aside_button">Create an event</button>
+            <button class="aside_button">Messages</button>
+            <button class="aside_button">Subscriptions</button>
+            <button type="button" id="logOut" class="logout">LogOut</button>
+        </div>
+    </aside>
+
+    <div id="section">
+        <div id="welcome" class="welcome"></div>
+
+        <div class="events">
+            <div>
+                <p class="event-counter" data-status="current">##variable## Current Events</p>
+            </div>
+            <div>
+                <p class="event-counter" data-status="cancelled">##variable## Cancelled Events</p>
+            </div>
+            <div>
+                <p class="event-counter" data-status="inactive">##variable## Inactive Events</p>
+            </div>
+            <div>
+                <p class="event-counter" data-status="total">##variable## Total Events</p>
+            </div>
+        </div>
+
+
+        <div class="contact_container">
+            <div>
+                <p class="contador" data-recurso="mails">##variable## Mails subscribed</p>
+            </div>
+            <div>
+                <p class="contador" data-recurso="messages">##variable## Contact messages</p>
+            </div>
+        </div>
+
+        <img src="../../img/homegif.gif" alt="Darius" class="darius_style">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
